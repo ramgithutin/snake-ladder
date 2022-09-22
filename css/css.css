@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Brush Script MT", cursive;
+	background-image: url(../assets/jungle.jpg);
+	background-repeat: no-repeat;
+
+}
+.gameName{
+	text-align:center;
+	font-size:40px;
+}
+.butn{
+	background-color: transparent;
+	border: none;
+}
+.container {
+        margin: auto;
+        text-align: right;
+    }
+
+.dice {
+        text-align: center;
+        display: inline-block;
+        margin: 10px;
+    }
+
+img {
+        width: 100%;
+    }
+
