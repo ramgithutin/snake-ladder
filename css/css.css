@@ -4,52 +4,143 @@
 	box-sizing: border-box;
 }
 
-body{
+body {
 	font-family: "Brush Script MT", cursive;
 	background-image: url(../assets/jungle.jpg);
 	background-repeat: no-repeat;
 
 }
-.gameName{
-	text-align:center;
-	font-size:40px;
+
+.gameName {
+	text-align: center;
+	font-size: 40px;
 }
-.butn{
+
+.butn {
 	background-color: transparent;
 	border: none;
 }
+
 .container {
-        margin: auto;
-        text-align: right; 
+	margin: auto;
+	text-align: right;
 }
 
 .dice {
-        text-align: center;
-        display: inline-block;
-        margin: 10px;
+	text-align: center;
+	display: inline-block;
+	margin: 10px;
 }
 
 img {
-        width: 100%;
+	width: 100%;
 }
-.container-fluid{
+
+.container-fluid {
 	display: grid;
-	justify-content:center;
+	justify-content: center;
 }
-.row1{
-	border:solid 1px black;
-	display:flex;
+
+.row1 {
+	border: solid 1px black;
+	display: flex;
 	width: fit-content;
 }
-.column{
+
+.column {
 	border: solid 1px black;
 	background-color: brown;
 	text-align: center;
 	padding: 10px;
-	font-size:20px;
-	color:white;
-	width:65px;
-	height:45px;
-	font-weight:bold;
+	font-size: 20px;
+	color: white;
+	width: 65px;
+	height: 45px;
+	font-weight: bold;
 }
 
+.img2 {
+	position: absolute;
+	width: 22%;
+	top: 76px;
+	transform: rotate(306deg);
+	left: 100px;
+}
+
+.img3 {
+	position: absolute;
+	top: 72px;
+	width: 20%;
+	left: 282px;
+}
+
+.img4 {
+	position: absolute;
+	top:384px;
+	left: 272px;
+	width: 20%;
+	transform: rotate(45deg);
+}
+
+.img5 {
+	position: absolute;
+	top: 297px;
+	width: 20%;
+	left: 148px;
+	transform: rotate(325deg);
+}
+
+.img6 {
+	position: absolute;
+	top: 278px;
+	width: 23%;
+	left: 332px;
+	transform: rotate(16deg)
+}
+
+.img7 {
+	position: absolute;
+	top: 88px;
+	width: 15%;
+	left: 302px;
+}
+
+.img8 {
+	top: 119px;
+	position: absolute;
+	width: 12%;
+	right: 240px;
+	transform: rotate(35deg);
+}
+
+.img9 {
+	position: absolute;
+	top: 310px;
+	width: 12%;
+	transform: rotate(328deg);
+	left: 350px;
+}
+
+.img10 {
+	position: absolute;
+	top: 200px;
+	width: 12%;
+	transform: rotate(328deg);
+	right: 287px;
+}
+
+.img11 {
+	position: absolute;
+	top: 400px;
+	width: 12%;
+	transform: rotate(37deg);
+	left: 289px;
+}
+
+.img12 {
+	position: absolute;
+	top: 353px;
+	width: 12%;
+	transform: rotate(328deg);
+	right: 220px;
+}
