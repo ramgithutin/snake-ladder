@@ -1,7 +1,6 @@
     //  name
     var player1 = "Player 1";
     var sum=0; 
-    // Function to change the player name
     function editNames() {
         player1 = prompt("Change Player1 name");
         document.querySelector("p.Player1").innerHTML = player1;
@@ -18,6 +17,6 @@
                 "assets/face" + current + ".png");
 		sum+=current;
                 console.log(sum);
-    
+          
         } ,2500);
     }
