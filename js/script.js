@@ -65,15 +65,49 @@
 		sum=41;
 		play();
 }
+//ladder
+	else if(sum==4){
+		sum=25;
+		play();
+}
+	else if(sum==13){
+		sum=46;
+		play();
+}
+	else if(sum==33){
+		sum=49;
+		play();
+}
+	else if(sum==42){
+		sum=63;
+		play();
+}
+	else if(sum==50){
+		sum=69;
+		play();
+}
+	else if(sum==62){
+		sum=81;
+		play();
+}	else if(sum==74){
+		sum=92;
+		play();
+}	else if(sum>100){
+		sum-=current;
+		play();
+}
 	else{
 		play();
+}
+	if(sum==100){
+		alert("you win")
 }
 function play(){
     		
     		//     p=document.getElementById(sum);
     		$('#' + sum + "").append('<img id="img2" src="assets/td.gif" />');
     		console.log(sum);
-		
+
 
 }
     	}
