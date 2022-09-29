@@ -8,12 +8,13 @@ body {
 	font-family: "Brush Script MT", cursive;
 	background-image: url(../assets/jungle.jpg);
 	background-repeat: no-repeat;
-	background-size:cover;
+	background-size: cover;
 }
 
 .gameName {
 	text-align: center;
 	font-size: 40px;
+	color: indigo;
 }
 
 .butn {
@@ -21,8 +22,9 @@ body {
 	border: none;
 }
 
-.container2{
-	margin: auto;
+.container2 {
+	margin-top: 324px;
+	margin-left: 40px;
 	text-align: right;
 }
 
@@ -35,10 +37,12 @@ body {
 img {
 	width: 100%;
 }
-.un{
-	display:flex;
+
+.un {
+	display: flex;
 }
-.container{
+
+.container {
 	background-image: url(../assets/background.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -59,9 +63,33 @@ img {
 	height: 56px;
 	font-weight: bold;
 }
-#img2{
-	width:68%;
+
+#img2 {
+	width: 68%;
 }
-#Play{
-	color:white;
+
+#Play {
+	color: white;
+	font-size: 20px;
+}
+
+.img2 {
+	position: absolute;
+	width: 21%;
+}
+
+.img3 {
+	position: absolute;
+	width: 51%;
+}
+
+.box {
+	display: flex;
+	justify-content: center;
+}
+
+.button2 {
+	font-size: 84px;
+	color: white;
+	background-color: darkred;
 }
